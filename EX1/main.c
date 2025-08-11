@@ -8,16 +8,16 @@ int main()
     // ENTRADA:
     float R, area, volume, volumeLitros;
     printf("Esfera: Dados de Entrada\n");
-    printf("Raio(R) em metros: ");
-    scanf("%f",&R);
+    printf("Raio(R) em metros: "); scanf("%f",&R);
     // PROCESSAMENTO (ULA):
     area = 4*PI*pow(R,2); // Metros Quadrados
-    volume = 4.0/3.0*PI*pow(R,3); // Metros C˙bicos
+    volume = 4.0/3.0*PI*pow(R,3); // Metros C√∫bicos
     volumeLitros = 1000*volume; // Litros
-    //SAÕDA:
+    //SA√çDA:
     printf("Dados da esfera:\n");
     printf("Area: %.2f Metros Quadrados\n", area);
     printf("Volume: %.2f Metros Cubicos\n", volume);
     printf("Volume em litros: %.2f Litros\n", volumeLitros);
     return 0;
 }
+
