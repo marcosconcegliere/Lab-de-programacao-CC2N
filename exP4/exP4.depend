@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1762813970 source:c:\devc\exp4\main.c
+	<stdio.h>
+	<math.h>
+
